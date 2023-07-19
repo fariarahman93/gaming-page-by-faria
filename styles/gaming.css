@@ -428,4 +428,8 @@ footer ul>li {
     flex-direction: column;
     width: 80%;
    }
+   .online-games-image-container{
+    display: flex;
+    flex-direction: column;
+   }
 }
