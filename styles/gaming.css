@@ -165,7 +165,7 @@ nav ul>li {
     text-align: right;
     font-size: 3rem;
     font-weight: 700;
-    padding-right: 20px;
+    
 }
 
 .we-are-gamer-description {
@@ -173,7 +173,6 @@ nav ul>li {
     text-align: right;
     font-size: 1.1rem;
     font-weight: 400;
-    padding-left: 200px;
 }
 
 .btn-primary1 {
@@ -183,9 +182,9 @@ nav ul>li {
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-right: 70px;
     padding: 20px 40px;
     border: 0;
+    width: 30%;
 }
 
 .we-are-gamer-description1 {
@@ -193,7 +192,6 @@ nav ul>li {
     text-align: right;
     font-size: 2rem;
     font-weight: 500;
-    padding-left: 120px;
 
 }
 
@@ -207,12 +205,14 @@ nav ul>li {
 .we-are-gamer-content {
    display: flex;
    flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-end;
 }
 
 .we-are-gamer-image {
     width: 100%;
    
-    padding-left: 100px;
+    
 }
 
 .online-games-image-container {
