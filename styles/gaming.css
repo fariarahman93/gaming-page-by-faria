@@ -205,13 +205,13 @@ nav ul>li {
 }
 
 .we-are-gamer-content {
-    padding-left: 100px;
-    padding-right: 50px;
+   display: flex;
+   flex-direction: column;
 }
 
 .we-are-gamer-image {
-    width: 160%;
-    padding-right: 100px;
+    width: 100%;
+   
     padding-left: 100px;
 }
 
@@ -402,5 +402,30 @@ footer ul>li {
     padding-bottom: 130px;
 }
 @media screen and (max-width:576px){
-
+   nav{
+    display: flex;
+    flex-direction: column;
+   }
+   nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   }
+   .banner{
+    flex-direction: column-reverse;
+   }
+   .banner-image{
+    width: 80%;
+    padding-left: 50px;
+   }
+   .goat{
+    font-size: 3rem;
+   }
+   .we-are-gamer-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   }
 }
