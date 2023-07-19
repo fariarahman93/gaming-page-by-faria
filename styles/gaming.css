@@ -51,3 +51,192 @@ nav ul>li{
     display: flex;
     margin-left: 20px;
 }
+/* banner */
+.banner{
+    display: flex;
+    background: #FFF;
+    justify-content: space-between;
+    gap: 200px;
+    background: #FFF;
+}
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: center;
+    font-size: 5.93rem;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-content{
+    background-image: url("../images/Group\ 14.png");
+    padding: 50px 70px;
+    
+}
+.banner-image{
+    width: 100%;
+}
+.btn-container{
+    display: flex;
+    gap: 20px;
+}
+.btn-primary{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border: 0;
+}
+.btn-secondary{
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+   font-size: 1.25rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   padding: 20px 40px;
+    border: 0;
+    margin-left: 15px;
+}
+.banner-content ul{
+    color: #534C64;
+    text-align: start;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    list-style: none;
+}
+.we-are-gamer-container{
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.we-are-gamer-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-right: 20px;
+}
+.we-are-gamer-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-left: 200px;
+}
+.btn-primary1{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 70px;
+    padding: 20px 40px;
+    border: 0;
+}
+.we-are-gamer-description1{
+    color: #534C64;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-left: 120px;
+   
+}
+.we-are-gamer-description2{
+    color: #534C64;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-left:45px ;
+}
+.we-are-gamer-content{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.we-are-gamer-image{
+    width: 160%;
+    padding-right: 100px;
+    padding-left: 100px;
+}   
+.online-games-image-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.online-image{
+    width: 240px;
+}
+.online-games-title{
+    color: #0B0223;
+    text-align:center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.online-games-title1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 120px;
+}
+.online-games-description{
+    color: #534C64;
+    text-align: center;
+   font-size: 1.1rem;
+   font-weight: 400;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.online-description{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.play-instantly-container{
+    display: flex;
+}
+.play-image{
+    width: 85%;
+}
+.play-instantly-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.play-instantly-title1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 3rem;
+   font-weight: 700;
+}
+.play-instantly-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-left: 200px;
+    padding-right: 200px;
+}
