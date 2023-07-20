@@ -95,10 +95,12 @@ nav ul>li {
     line-height: normal;
     text-transform: uppercase;
 }
-.youtube{
+
+.youtube {
     padding-left: 16px;
     padding-right: 16px;
 }
+
 .banner-content {
     background-image: url("../images/Group\ 14.png");
     padding: 50px 70px;
@@ -146,12 +148,14 @@ nav ul>li {
     display: flex;
     flex-direction: column;
 }
-.icon-flex{
+
+.icon-flex {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:5px;
+    gap: 5px;
 }
+
 .we-are-gamer-container {
     display: flex;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -165,7 +169,7 @@ nav ul>li {
     text-align: right;
     font-size: 3rem;
     font-weight: 700;
-    
+
 }
 
 .we-are-gamer-description {
@@ -203,16 +207,16 @@ nav ul>li {
 }
 
 .we-are-gamer-content {
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
-   align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .we-are-gamer-image {
     width: 100%;
-   
-    
+
+
 }
 
 .online-games-image-container {
@@ -223,6 +227,48 @@ nav ul>li {
     padding-right: 100px;
 }
 
+/* bonus */
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+  } */
+
+/* .play-button, .watch-now {
+    font-size: 16px;
+    color: #fff;
+    display: none;
+    opacity: 0;
+  }
+  
+  .online-games-image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .online-games-image-container:hover .play-button, .online-games-image-container:hover .watch-now {
+    display: block;
+  }  */
+/* .image-with-overlay {
+    position: relative;
+  } */
+/* .online-image1 .play-button,
+  .online-image1 .watch-now {
+  opacity: 0;
+}
+  .online-image1:hover .play-button,
+  .online-image1:hover .watch-now {
+  opacity: 1;
+} 
+*/
 .online-image {
     width: 240px;
 }
@@ -364,11 +410,32 @@ nav ul>li {
 
 }
 
-footer ul {
+footer ul.footer1 {
     list-style: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 95px);
     justify-content: center;
-    gap: 40px;
+    /* gap:  0.5rem; */
+    margin-top: 20px;
+
+}
+footer ul.footer2 {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 55px);
+    justify-content: center;
+    /* gap:  0.5rem; */
+    margin-top: 20px;
+
+}
+footer ul.conditions{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    /* gap:  1.5rem; */
     margin-top: 20px;
 
 }
@@ -389,11 +456,11 @@ footer ul>li {
 }
 
 .footer-img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
-.copy-right p{
+.copy-right p {
     color: white;
     text-align: center;
     font-size: 16px;
@@ -401,35 +468,158 @@ footer ul>li {
     font-weight: 500;
     padding-bottom: 130px;
 }
-@media screen and (max-width:576px){
-   nav{
-    display: flex;
-    flex-direction: column;
-   }
-   nav ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-   }
-   .banner{
-    flex-direction: column-reverse;
-   }
-   .banner-image{
-    width: 80%;
-    padding-left: 50px;
-   }
-   .goat{
-    font-size: 3rem;
-   }
-   .we-are-gamer-container{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-   }
-   .online-games-image-container{
-    display: flex;
-    flex-direction: column;
-   }
+
+.image-grid-mobile {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        gap: 10px
+    }
+
+    .banner-image {
+        width: 80%;
+        padding-left: 50px;
+    }
+    .banner-content {
+        padding: 0px;
+    }
+    .btn-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .goat {
+        font-size: 3rem;
+    }
+    .we-are-gamer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .we-are-gamer-container {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        /* width: 80%; */
+    }
+    .we-are-gamer-description1, .we-are-gamer-description{
+        text-align: center;
+    }
+    .btn-primary1{
+        width: 60%;
+    }
+    .online-games-image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .play-instantly-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .play-instantly-image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .play-image {
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .talking-image {
+        border-radius: 8px;
+        border: 1px solid #FFF;
+        background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+        width: 150px;
+        position: relative;
+        right: 100px;
+        bottom: 120px;
+    }
+
+    .image1,
+    .image2 {
+        display: none;
+    }
+
+    .image-grid-mobile {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8,
+    .img9 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1px
+    }
+
+    .sp-img{
+        width: 25%;
+    }
+    footer ul.footer1 {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 95px);
+        justify-content: center;
+        /* gap:  0.5rem; */
+        margin-top: 20px;
+    
+    }
+    footer ul.footer2 {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 55px);
+        justify-content: center;
+        /* gap:  0.5rem; */
+        margin-top: 20px;
+    
+    }
+    footer ul.conditions{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        /* gap:  1.5rem; */
+        margin-top: 20px;
+    
+    }
+    /* .image1, .image2, .image-r{
+    display: grid;
+ grid-template-columns: repeat(3, 1fr);
+} */
 }
